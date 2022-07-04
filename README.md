@@ -21,17 +21,16 @@ The Data contains **21597 data points (rows)** of data on the House sales, Conta
 ## METHODS
 Model iterations are developed by methodically improving from prior models, we start by building a base model, which is the model of our target feature with the highest correlated feature.
 
+![Correlation coefficient table](images/correlation%20table.png)
+
 We then iteratively add more features, while trying to settle on the best model.
 
 ## RESULTS
+From our base model, we have seen that the features that give us the best model include:
+`bedrooms`, `bathrooms`, `sqft_living`, `sqft_lot`, `floors`, `waterfront`, `view`, `condition`, `grade`
 
 
-
-## CONCLUSIONS
-
-
-## NEXT STEPS
-
+This basically means, that when estimating the valuea house, these are the combinations of features that will ultimately give use the price of the house.
 
 ## REPOSITORY STRUCTURE
 
